@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f42f3537-7463-4abd-8b35-ce253cdc916b": {
+        "id": "f42f3537-7463-4abd-8b35-ce253cdc916b",
+        "parent": null,
+        "name": "Merge1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "62607663-ca9d-4b18-a572-02aff933cfc0"
+        ],
+        "isRemovable": false,
+        "filePath": "Merge1"
+      },
+      "62607663-ca9d-4b18-a572-02aff933cfc0": {
+        "id": "62607663-ca9d-4b18-a572-02aff933cfc0",
+        "parent": "f42f3537-7463-4abd-8b35-ce253cdc916b",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Merge1/lambda.js",
+        "code": "exports.handler = async (event) => {\n    \n    return {\"message\": \"Successfully executed\"};\n};",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "f42f3537-7463-4abd-8b35-ce253cdc916b",
+    "openFiles": [
+      "62607663-ca9d-4b18-a572-02aff933cfc0"
+    ],
+    "currentFileId": "62607663-ca9d-4b18-a572-02aff933cfc0",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Merge1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576567948673
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Merge1",
+      "url": "https://github.com/zgma-test/Merge1"
+    }
+  }
+}
