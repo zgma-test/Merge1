@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "Merge1/lambda.js",
-        "code": "exports.handler = async (event) => {\n    \n    return {\"message\": \"Successfully executed\"};\n};",
+        "code": "exports.handler = async (event) => {\n    \n    return {\"message\": \"Successfully executed 1\"};\n};",
         "config": {
           "runtime": "nodejs10.x",
           "handler": "handler",
@@ -64,7 +64,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576567948673
+    "lastSave": 1576567985940
   },
   "VCS_STATE": {
     "provider": "GitHub",
